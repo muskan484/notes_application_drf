@@ -60,23 +60,23 @@ git clone "https://github.com/muskan484/notes_application_drf",
     This endpoint is used to login to the user account
     Methods: POST
     Request Body:
-        ```
-        {
-            "username": '',
-            "password": ''
-        }
-        ```
+    ```
+    {
+        "username": '',
+        "password": ''
+    }
+    ```
 
     
 3. /notes/create
     This endpoint is used to create note
     Methods: POST
     Request Body:
-        ```
-        {
-            "content": ""
-        }
-        ```
+    ```
+    {
+        "content": ""
+    }
+    ```
 
 4. /notes/{id}
     This endpoint is used to get, update, delete the specific note
